@@ -17,4 +17,15 @@ public class TestRecordPlayer {
         assertEquals("Bang and Olufsen", recordPlayer.getMake());
     }
 
+    @Test
+    public void canGetModel() {
+        assertEquals("Turntable", recordPlayer.getModel());
+    }
+
+    @Test
+    public void canPlay() {
+        String result = recordPlayer.play("Kashmir");
+        assertEquals("Record Player - Playing: Kashmir", result);
+    }
+
 }
