@@ -1,3 +1,4 @@
+import Components.RecordPlayer;
 import org.junit.Before;
 import org.junit.Test;
 

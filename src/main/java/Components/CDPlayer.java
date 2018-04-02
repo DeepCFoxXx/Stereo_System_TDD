@@ -1,4 +1,6 @@
-public class CDPlayer extends Component{
+package Components;
+
+public class CDPlayer extends Component {
 
     private int numberOfCDs;
 
