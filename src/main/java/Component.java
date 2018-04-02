@@ -7,11 +7,12 @@ public abstract class Component {
         this.model = model;
     }
 
-    public String getMake(){
+    public String getMake() {
         return this.make;
     }
 
-    public String getModel(){
-     return this.model;
+    public String getModel() {
+        return this.model;
     }
+
 }

@@ -22,4 +22,9 @@ public class TestCDPlayer {
         assertEquals("Disc Player", cdPlayer.getModel());
     }
 
+    @Test
+    public void canGetNumberOfCDs(){
+        assertEquals(1, cdPlayer.getNumberOfCDs());
+    }
+
 }

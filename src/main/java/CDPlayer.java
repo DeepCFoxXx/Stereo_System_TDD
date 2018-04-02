@@ -6,4 +6,8 @@ public class CDPlayer extends Component{
         super(make, model);
         this.numberOfCDs = numberOfCDs;
     }
+
+    public int getNumberOfCDs() {
+        return numberOfCDs;
+    }
 }
