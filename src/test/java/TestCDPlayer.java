@@ -27,4 +27,9 @@ public class TestCDPlayer {
         assertEquals(1, cdPlayer.getNumberOfCDs());
     }
 
+    @Test
+    public void canPlay() {
+        assertEquals("CD - Playing: Roundabout", cdPlayer.play("Roundabout"));
+    }
+
 }

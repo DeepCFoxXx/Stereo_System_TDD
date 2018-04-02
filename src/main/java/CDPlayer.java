@@ -10,4 +10,8 @@ public class CDPlayer extends Component{
     public int getNumberOfCDs() {
         return numberOfCDs;
     }
+
+    public String play(String title) {
+        return "CD - Playing: " + title;
+    }
 }
