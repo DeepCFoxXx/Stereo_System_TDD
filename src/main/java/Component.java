@@ -1,4 +1,5 @@
 public abstract class Component {
+
     private String make;
     private String model;
 
