@@ -17,4 +17,9 @@ public class TestCDPlayer {
         assertEquals("Sony", cdPlayer.getMake());
     }
 
+    @Test
+    public void canGetModel() {
+        assertEquals("Disc Player", cdPlayer.getModel());
+    }
+
 }
