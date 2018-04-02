@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cf7810-6cf0-437e-8591-3bb10db240f3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRecordPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRecordPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Headphones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestHeadphones.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,35 +26,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RecordPlayer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RecordPlayer.java">
+      <file leaf-file-name="IOutput.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/IOutput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="30">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Headphones.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Headphones.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRecordPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestRecordPlayer.java">
+      <file leaf-file-name="TestHeadphones.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestHeadphones.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="27" selection-start-column="27" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -62,8 +62,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -519,6 +519,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Radio.java" />
         <option value="$PROJECT_DIR$/src/main/java/RecordPlayer.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestRecordPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IOutput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Headphones.java" />
       </list>
     </option>
   </component>
@@ -591,7 +593,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Stereo_System_test">
+  <component name="RunManager" selected="JUnit.TestHeadphones.canGetMake">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -615,13 +617,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestRadio.canTune" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHeadphones.canGetMake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stereo_System_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRadio" />
-      <option name="METHOD_NAME" value="canTune" />
+      <option name="MAIN_CLASS_NAME" value="TestHeadphones" />
+      <option name="METHOD_NAME" value="canGetMake" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -735,19 +737,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestRadio.canTune" />
       <item itemvalue="JUnit.All in Stereo_System_test" />
       <item itemvalue="JUnit.TestRecordPlayer.canGetMake" />
       <item itemvalue="JUnit.TestRecordPlayer.canGetModel" />
       <item itemvalue="JUnit.TestRecordPlayer.canPlay" />
+      <item itemvalue="JUnit.TestHeadphones.canGetMake" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestHeadphones.canGetMake" />
         <item itemvalue="JUnit.All in Stereo_System_test" />
         <item itemvalue="JUnit.TestRecordPlayer.canPlay" />
         <item itemvalue="JUnit.TestRecordPlayer.canGetModel" />
         <item itemvalue="JUnit.TestRecordPlayer.canGetMake" />
-        <item itemvalue="JUnit.TestRadio.canTune" />
       </list>
     </recent_temporary>
   </component>
@@ -950,6 +952,31 @@
             <element signature="e#193#194#0" expanded="true" />
             <element signature="e#251#252#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestHeadphones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Headphones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
