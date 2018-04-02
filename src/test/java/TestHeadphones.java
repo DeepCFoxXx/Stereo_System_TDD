@@ -22,4 +22,9 @@ public class TestHeadphones {
         assertEquals("Headphones", headphones.getModel());
     }
 
+    @Test
+    public void canOutput() {
+        assertEquals("Playing Queen", headphones.outputSound("Queen"));
+    }
+
 }
