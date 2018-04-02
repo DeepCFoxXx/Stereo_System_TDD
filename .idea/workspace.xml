@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cf7810-6cf0-437e-8591-3bb10db240f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestRadio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Component.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Component.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRadio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRadio.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,8 +28,8 @@
       <file leaf-file-name="Radio.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Radio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="105">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
               <folding>
                 <element signature="e#84#85#0" expanded="true" />
                 <element signature="e#118#119#0" expanded="true" />
@@ -44,14 +41,18 @@
       <file leaf-file-name="TestRadio.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestRadio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="390">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#135#136#0" expanded="true" />
                 <element signature="e#192#193#0" expanded="true" />
                 <element signature="e#234#235#0" expanded="true" />
                 <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -515,8 +516,8 @@
         <option value="$PROJECT_DIR$/src/test/java/TestCDPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/CDPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Component.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Radio.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestRadio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Radio.java" />
       </list>
     </option>
   </component>
@@ -589,7 +590,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRadio.canGetModel">
+  <component name="RunManager" selected="JUnit.All in Stereo_System_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -604,23 +605,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestCDPlayer.canGetNumberOfCDs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Stereo_System_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCDPlayer" />
-      <option name="METHOD_NAME" value="canGetNumberOfCDs" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -671,6 +655,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRadio" />
       <option name="METHOD_NAME" value="canGetModel" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestRadio.canTune" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stereo_System_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRadio" />
+      <option name="METHOD_NAME" value="canTune" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -733,19 +734,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in Stereo_System_test" />
-      <item itemvalue="JUnit.TestCDPlayer.canGetNumberOfCDs" />
       <item itemvalue="JUnit.TestCDPlayer.canPlay" />
       <item itemvalue="JUnit.TestRadio.canGetMake" />
       <item itemvalue="JUnit.TestRadio.canGetModel" />
+      <item itemvalue="JUnit.TestRadio.canTune" />
+      <item itemvalue="JUnit.All in Stereo_System_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Stereo_System_test" />
+        <item itemvalue="JUnit.TestRadio.canTune" />
         <item itemvalue="JUnit.TestRadio.canGetModel" />
         <item itemvalue="JUnit.TestRadio.canGetMake" />
         <item itemvalue="JUnit.TestCDPlayer.canPlay" />
-        <item itemvalue="JUnit.TestCDPlayer.canGetNumberOfCDs" />
-        <item itemvalue="JUnit.All in Stereo_System_test" />
       </list>
     </recent_temporary>
   </component>
@@ -763,9 +764,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCDPlayer_canGetMake - 2018.04.02 at 10h 43m 35s.xml">
-      <configuration name="TestCDPlayer.canGetMake" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCDPlayer_canGetModel - 2018.04.02 at 10h 50m 32s.xml">
       <configuration name="TestCDPlayer.canGetModel" configurationId="JUnit" />
     </history-entry>
@@ -783,6 +781,18 @@
     </history-entry>
     <history-entry file="TestRadio_canGetMake - 2018.04.02 at 11h 07m 34s.xml">
       <configuration name="TestRadio.canGetMake" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRadio_canGetMake - 2018.04.02 at 11h 09m 23s.xml">
+      <configuration name="TestRadio.canGetMake" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRadio_canGetModel - 2018.04.02 at 11h 10m 41s.xml">
+      <configuration name="TestRadio.canGetModel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRadio_canGetModel - 2018.04.02 at 11h 11m 07s.xml">
+      <configuration name="TestRadio.canGetModel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRadio_canGetModel - 2018.04.02 at 11h 11m 36s.xml">
+      <configuration name="TestRadio.canGetModel" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -821,6 +831,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/untitled/build.gradle">
@@ -881,8 +896,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Radio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding>
             <element signature="e#84#85#0" expanded="true" />
             <element signature="e#118#119#0" expanded="true" />
@@ -892,14 +907,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestRadio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="390">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#135#136#0" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
             <element signature="e#234#235#0" expanded="true" />
             <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -22,4 +22,9 @@ public class TestRadio {
         assertEquals("Digital", radio.getModel());
     }
 
+    @Test
+    public void canTune() {
+        assertEquals("Tuning to: Absolute Classic Rock", radio.tune("Absolute Classic Rock"));
+    }
+
 }
