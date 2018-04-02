@@ -1,0 +1,4 @@
+rootProject.name = 'Stereo_System'
+include 'untitled'
+findProject(':untitled')?.name = 'Stereo_System'
+
