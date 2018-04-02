@@ -17,4 +17,9 @@ public class TestHeadphones {
         assertEquals("Sennheiser", headphones.getMake());
     }
 
+    @Test
+    public void canGetModel() {
+        assertEquals("Headphones", headphones.getModel());
+    }
+
 }
