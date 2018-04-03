@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/TestStereo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#608#609#0" expanded="true" />
@@ -628,7 +628,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestStereo.cannotTurnSoundUpBeyondMax">
+  <component name="RunManager" selected="JUnit.All in Stereo_System_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -780,8 +780,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestStereo.cannotTurnSoundUpBeyondMax" />
         <item itemvalue="JUnit.All in Stereo_System_test" />
+        <item itemvalue="JUnit.TestStereo.cannotTurnSoundUpBeyondMax" />
         <item itemvalue="JUnit.TestStereo.canTurnDown" />
         <item itemvalue="JUnit.TestStereo.canTurnUpVolume" />
         <item itemvalue="JUnit.TestStereo.volumeStartsAtZero" />
@@ -802,12 +802,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Stereo_System_test - 2018.04.02 at 12h 28m 05s.xml">
-      <configuration name="All in Stereo_System_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSpeaker_canGetMaxOutput - 2018.04.03 at 14h 43m 07s.xml">
-      <configuration name="TestSpeaker.canGetMaxOutput" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSpeaker_canBlastOutSounds - 2018.04.03 at 14h 45m 18s.xml">
       <configuration name="TestSpeaker.canBlastOutSounds" configurationId="JUnit" />
     </history-entry>
@@ -832,10 +826,15 @@
     <history-entry file="All_in_Stereo_System_test - 2018.04.03 at 15h 01m 16s.xml">
       <configuration name="All in Stereo_System_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestStereo_cannotTurnSoundUpBeyondMax - 2018.04.03 at 15h 02m 53s.xml">
+      <configuration name="TestStereo.cannotTurnSoundUpBeyondMax" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Stereo_System_test - 2018.04.03 at 15h 05m 19s.xml">
+      <configuration name="All in Stereo_System_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -845,12 +844,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" order="3" weight="0.32965517" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32965517" />
       <window_info anchor="right" id="Gradle" order="1" />
@@ -1050,7 +1049,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TestStereo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#608#609#0" expanded="true" />

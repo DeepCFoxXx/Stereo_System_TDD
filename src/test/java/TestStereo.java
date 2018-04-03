@@ -54,5 +54,15 @@ public class TestStereo {
         assertEquals(stereo.getMaxVolume(), stereo.getCurrentVolume());
     }
 
+    @Test
+    public void cannotTurnSoundDownBelowZero() {
+        stereo.turnItUp();
+        stereo.turnItUp();
+        for (int i = 0; i < 20; i++) {
+            stereo.turnItDown();
+        }
+        assertEquals(0, stereo.getCurrentVolume());
+    }
+
 
 }
