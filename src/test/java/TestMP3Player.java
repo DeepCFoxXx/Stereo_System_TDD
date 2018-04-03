@@ -30,4 +30,10 @@ public class TestMP3Player {
         assertEquals("Apple", mp3Player.getMake());
     }
 
+    @Test
+    public void canGetModel() {
+        assertEquals("Ipod", mp3Player.getModel());
+    }
+
+
 }

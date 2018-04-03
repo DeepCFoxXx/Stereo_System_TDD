@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cf7810-6cf0-437e-8591-3bb10db240f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stereo/IConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stereo/MP3Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestMP3Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stereo/MP3Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stereo/MP3Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestMP3Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestMP3Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,13 +37,15 @@
       <file leaf-file-name="MP3Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Stereo/MP3Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#269#270#0" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
                 <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,12 +54,14 @@
       <file leaf-file-name="TestMP3Player.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestMP3Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            <state relative-caret-position="364">
+              <caret line="34" column="47" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#684#685#0" expanded="true" />
                 <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -537,6 +539,7 @@
         <option value="$PROJECT_DIR$/src/main/java/IConnect.java" />
         <option value="$PROJECT_DIR$/src/main/java/MP3Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestMP3Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Stereo/MP3Player.java" />
       </list>
     </option>
   </component>
@@ -679,13 +682,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestStereo.canTurnDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMP3Player.canGetModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stereo_System_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestStereo" />
-      <option name="METHOD_NAME" value="canTurnDown" />
+      <option name="MAIN_CLASS_NAME" value="TestMP3Player" />
+      <option name="METHOD_NAME" value="canGetModel" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -696,13 +699,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestStereo.canTurnUpVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStereo.canTurnDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stereo_System_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestStereo" />
-      <option name="METHOD_NAME" value="canTurnUpVolume" />
+      <option name="METHOD_NAME" value="canTurnDown" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -783,18 +786,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Stereo_System_test" />
-      <item itemvalue="JUnit.TestStereo.canTurnUpVolume" />
       <item itemvalue="JUnit.TestStereo.canTurnDown" />
       <item itemvalue="JUnit.TestStereo.cannotTurnSoundUpBeyondMax" />
       <item itemvalue="JUnit.TestMP3Player.canGetMake" />
+      <item itemvalue="JUnit.TestMP3Player.canGetModel" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Stereo_System_test" />
+        <item itemvalue="JUnit.TestMP3Player.canGetModel" />
         <item itemvalue="JUnit.TestMP3Player.canGetMake" />
         <item itemvalue="JUnit.TestStereo.cannotTurnSoundUpBeyondMax" />
         <item itemvalue="JUnit.TestStereo.canTurnDown" />
-        <item itemvalue="JUnit.TestStereo.canTurnUpVolume" />
       </list>
     </recent_temporary>
   </component>
@@ -812,12 +815,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestStereo_canTurnUpVolume - 2018.04.03 at 14h 58m 43s.xml">
-      <configuration name="TestStereo.canTurnUpVolume" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestStereo_canTurnUpVolume - 2018.04.03 at 14h 58m 48s.xml">
-      <configuration name="TestStereo.canTurnUpVolume" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestStereo_canTurnDown - 2018.04.03 at 15h 01m 08s.xml">
       <configuration name="TestStereo.canTurnDown" configurationId="JUnit" />
     </history-entry>
@@ -842,6 +839,12 @@
     <history-entry file="All_in_Stereo_System_test - 2018.04.03 at 15h 28m 36s.xml">
       <configuration name="All in Stereo_System_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMP3Player_canGetMake - 2018.04.03 at 15h 34m 53s.xml">
+      <configuration name="TestMP3Player.canGetMake" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Stereo_System_test - 2018.04.03 at 15h 35m 00s.xml">
+      <configuration name="All in Stereo_System_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -849,13 +852,13 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="4" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
@@ -1076,25 +1079,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Stereo/MP3Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="345">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#269#270#0" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestMP3Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="364">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#684#685#0" expanded="true" />
             <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
           </folding>
         </state>
       </provider>
