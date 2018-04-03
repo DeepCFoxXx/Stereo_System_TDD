@@ -1,3 +1,5 @@
+import Outputs.IOutput;
+
 public class Headphones implements IOutput {
 
     private String make;
