@@ -623,7 +623,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestStereo.canGetName">
+  <component name="RunManager" selected="JUnit.TestStereo.volumeStartsAtZero">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -638,23 +638,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestHeadphones.canBlastOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Stereo_System_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestHeadphones" />
-      <option name="METHOD_NAME" value="canBlastOut" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -705,6 +688,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestStereo" />
       <option name="METHOD_NAME" value="canGetName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestStereo.volumeStartsAtZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stereo_System_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestStereo" />
+      <option name="METHOD_NAME" value="volumeStartsAtZero" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -768,18 +768,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Stereo_System_test" />
-      <item itemvalue="JUnit.TestHeadphones.canBlastOut" />
       <item itemvalue="JUnit.TestSpeaker.canGetMaxOutput" />
       <item itemvalue="JUnit.TestSpeaker.canBlastOutSounds" />
       <item itemvalue="JUnit.TestStereo.canGetName" />
+      <item itemvalue="JUnit.TestStereo.volumeStartsAtZero" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestStereo.volumeStartsAtZero" />
         <item itemvalue="JUnit.TestStereo.canGetName" />
         <item itemvalue="JUnit.All in Stereo_System_test" />
         <item itemvalue="JUnit.TestSpeaker.canBlastOutSounds" />
         <item itemvalue="JUnit.TestSpeaker.canGetMaxOutput" />
-        <item itemvalue="JUnit.TestHeadphones.canBlastOut" />
       </list>
     </recent_temporary>
   </component>

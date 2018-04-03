@@ -26,4 +26,11 @@ public class Stereo {
         return name;
     }
 
+    public int getCurrentVolume() {
+        return this.currentVolume;
+    }
+
+    public int getMaxVolume() {
+        return maxVolume;
+    }
 }

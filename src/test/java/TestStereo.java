@@ -27,4 +27,9 @@ public class TestStereo {
         assertEquals("Deaf Machine", stereo.getName());
     }
 
+    @Test
+    public void volumeStartsAtZero() {
+        assertEquals(0, stereo.getCurrentVolume());
+    }
+
 }
