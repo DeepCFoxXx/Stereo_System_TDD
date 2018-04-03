@@ -629,7 +629,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSpeaker.canGetMaxOutput">
+  <component name="RunManager" selected="JUnit.All in Stereo_System_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -670,13 +670,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestHeadphones.canGetMake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHeadphones.canGetModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stereo_System_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestHeadphones" />
-      <option name="METHOD_NAME" value="canGetMake" />
+      <option name="METHOD_NAME" value="canGetModel" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -687,13 +687,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestHeadphones.canGetModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSpeaker.canBlastOutSounds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stereo_System_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestHeadphones" />
-      <option name="METHOD_NAME" value="canGetModel" />
+      <option name="MAIN_CLASS_NAME" value="TestSpeaker" />
+      <option name="METHOD_NAME" value="canBlastOutSounds" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -774,18 +774,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Stereo_System_test" />
-      <item itemvalue="JUnit.TestHeadphones.canGetMake" />
       <item itemvalue="JUnit.TestHeadphones.canGetModel" />
       <item itemvalue="JUnit.TestHeadphones.canBlastOut" />
       <item itemvalue="JUnit.TestSpeaker.canGetMaxOutput" />
+      <item itemvalue="JUnit.TestSpeaker.canBlastOutSounds" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestSpeaker.canGetMaxOutput" />
         <item itemvalue="JUnit.All in Stereo_System_test" />
+        <item itemvalue="JUnit.TestSpeaker.canBlastOutSounds" />
+        <item itemvalue="JUnit.TestSpeaker.canGetMaxOutput" />
         <item itemvalue="JUnit.TestHeadphones.canBlastOut" />
         <item itemvalue="JUnit.TestHeadphones.canGetModel" />
-        <item itemvalue="JUnit.TestHeadphones.canGetMake" />
       </list>
     </recent_temporary>
   </component>

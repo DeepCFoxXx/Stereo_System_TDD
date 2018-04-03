@@ -18,4 +18,9 @@ public class TestSpeaker {
         assertEquals(9000, speaker.getMaxOutput());
     }
 
+    @Test
+    public void canOutPutSound() {
+        assertEquals("Playing Queen", speaker.outputSound("Queen"));
+    }
+
 }
