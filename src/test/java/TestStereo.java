@@ -32,4 +32,18 @@ public class TestStereo {
         assertEquals(0, stereo.getCurrentVolume());
     }
 
+    @Test
+    public void canTurnUpVolume() {
+        stereo.turnItUp();
+        assertEquals(1, stereo.getCurrentVolume());
+    }
+
+    @Test
+    public void canTurnDown() {
+        stereo.turnItUp();
+        stereo.turnItUp();
+        stereo.turnItDown();
+        assertEquals(1, stereo.getCurrentVolume());
+    }
+
 }

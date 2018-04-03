@@ -33,4 +33,16 @@ public class Stereo {
     public int getMaxVolume() {
         return maxVolume;
     }
+
+    public void turnItUp() {
+        if (this.currentVolume < maxVolume) {
+            this.currentVolume++;
+        }
+    }
+
+    public void turnItDown() {
+        if (this.currentVolume > 0) {
+            this.currentVolume--;
+        }
+    }
 }
