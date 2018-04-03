@@ -64,5 +64,23 @@ public class TestStereo {
         assertEquals(0, stereo.getCurrentVolume());
     }
 
+    @Test
+    public void canUseRadio() {
+        String result = stereo.tuneRadio("Planet Rock");
+        assertEquals("Radio Selected: Tuning to: Planet Rock",result);
+    }
+
+    @Test
+    public void canUseCDPlayer() {
+        String result = stereo.playCD("Cat scratch fever");
+        assertEquals("CD - Playing: Cat scratch fever", result);
+    }
+
+    @Test
+    public void canUseRecordPlayer() {
+        String result = stereo.playRecord("Starman");
+        assertEquals("Record Player - Playing: Starman", result);
+    }
+
 
 }

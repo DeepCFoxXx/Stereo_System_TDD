@@ -45,4 +45,16 @@ public class Stereo {
             this.currentVolume--;
         }
     }
+
+    public String tuneRadio(String station) {
+        return "Radio Selected: " +  radio.tune(station);
+    }
+
+    public String playCD(String title) {
+        return cdPlayer.play(title);
+    }
+
+    public String playRecord(String title) {
+        return recordPlayer.play(title);
+    }
 }

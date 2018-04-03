@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cf7810-6cf0-437e-8591-3bb10db240f3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stereo/Stereo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stereo/Stereo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestStereo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestStereo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Stereo/Stereo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#628#629#0" expanded="true" />
@@ -37,6 +38,12 @@
                 <element signature="e#713#714#0" expanded="true" />
                 <element signature="e#767#768#0" expanded="true" />
                 <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="e#1196#1197#0" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,8 +52,8 @@
       <file leaf-file-name="TestStereo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestStereo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="411">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#608#609#0" expanded="true" />
@@ -802,9 +809,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSpeaker_canBlastOutSounds - 2018.04.03 at 14h 45m 18s.xml">
-      <configuration name="TestSpeaker.canBlastOutSounds" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Stereo_System_test - 2018.04.03 at 14h 45m 37s.xml">
       <configuration name="All in Stereo_System_test" configurationId="JUnit" />
     </history-entry>
@@ -830,6 +834,9 @@
       <configuration name="TestStereo.cannotTurnSoundUpBeyondMax" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_Stereo_System_test - 2018.04.03 at 15h 05m 19s.xml">
+      <configuration name="All in Stereo_System_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Stereo_System_test - 2018.04.03 at 15h 13m 26s.xml">
       <configuration name="All in Stereo_System_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1033,7 +1040,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Stereo/Stereo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#628#629#0" expanded="true" />
@@ -1042,14 +1049,20 @@
             <element signature="e#713#714#0" expanded="true" />
             <element signature="e#767#768#0" expanded="true" />
             <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestStereo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state relative-caret-position="411">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#608#609#0" expanded="true" />
