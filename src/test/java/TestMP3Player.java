@@ -35,5 +35,10 @@ public class TestMP3Player {
         assertEquals("Ipod", mp3Player.getModel());
     }
 
+    @Test
+    public void canConnectToStereo() {
+        String result = mp3Player.connect(stereo);
+        assertEquals("Connected to: Deaf Machine", result);
+    }
 
 }

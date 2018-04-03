@@ -665,6 +665,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TestMP3Player.canConnectToStereo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stereo_System_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMP3Player" />
+      <option name="METHOD_NAME" value="canConnectToStereo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="TestMP3Player.canGetMake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stereo_System_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -689,23 +706,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestMP3Player" />
       <option name="METHOD_NAME" value="canGetModel" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestStereo.canTurnDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Stereo_System_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestStereo" />
-      <option name="METHOD_NAME" value="canTurnDown" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -786,18 +786,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Stereo_System_test" />
-      <item itemvalue="JUnit.TestStereo.canTurnDown" />
       <item itemvalue="JUnit.TestStereo.cannotTurnSoundUpBeyondMax" />
       <item itemvalue="JUnit.TestMP3Player.canGetMake" />
       <item itemvalue="JUnit.TestMP3Player.canGetModel" />
+      <item itemvalue="JUnit.TestMP3Player.canConnectToStereo" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Stereo_System_test" />
+        <item itemvalue="JUnit.TestMP3Player.canConnectToStereo" />
         <item itemvalue="JUnit.TestMP3Player.canGetModel" />
         <item itemvalue="JUnit.TestMP3Player.canGetMake" />
         <item itemvalue="JUnit.TestStereo.cannotTurnSoundUpBeyondMax" />
-        <item itemvalue="JUnit.TestStereo.canTurnDown" />
       </list>
     </recent_temporary>
   </component>
