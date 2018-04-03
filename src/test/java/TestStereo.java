@@ -46,4 +46,13 @@ public class TestStereo {
         assertEquals(1, stereo.getCurrentVolume());
     }
 
+    @Test
+    public void cannotTurnSoundUpBeyondMax() {
+        for (int i = 0; i < 20; i++) {
+            stereo.turnItUp();
+        }
+        assertEquals(stereo.getMaxVolume(), stereo.getCurrentVolume());
+    }
+
+
 }
